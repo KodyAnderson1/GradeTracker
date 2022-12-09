@@ -1,0 +1,48 @@
+.btn-sort {
+    color: #bbb;
+    margin-top: -.5rem;
+  }
+  
+  .btn-sort .flip {
+    transform: scale(1, -1);
+  }
+  
+  .btn-sort .active {
+    color: #0d6efd
+  }
+
+.bold-text {
+    font-weight: bold;
+}
+
+.button-padding {
+    padding-bottom: .5rem;
+}
+
+.course-name, .actual-grade {
+    margin-right: 1rem;
+}
+
+.potential-grade {
+    margin-right: -2rem
+}
+
+.group-average {
+    border-radius: 25px !important;
+    text-decoration: none !important;
+    color: black !important;
+}
+
+@media(max-width: 520px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .small-screens {
+        display: none !important;
+    }
+}
+
+
+
+

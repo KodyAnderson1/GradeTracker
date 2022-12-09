@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
+
+:root {
+    --primary-white: rgb(255, 255, 255);
+    --primary-black: rgb(0, 0, 0);
+    --primary-orange: #ffae00;
+    --primary-text-color: rgb(230, 230, 250);
+}
+
+html {
+    height: 100%;
+}
+
+main {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 8vh;
+}
+
+body {
+    margin: .5rem;
+    color: var(--primary-white) !important;
+    background-image: url('./background_img.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.course-info {
+    text-shadow: 6px 6px 8px black !important;
+}
+
+.course-button {
+    background: none !important;
+	color: inherit !important;
+	border: none !important;
+	padding: 0 !important;
+	font: inherit !important;
+	cursor: pointer !important;
+	outline: inherit !important;
+}
+
+.big-button {
+    margin-top: 3rem;
+    margin-bottom: auto;
+    height: 5rem;
+    width: 21rem;
+    font-size: 1.5rem !important;
+}
+
+.bold-text {
+    font-weight: bold !important;
+}
+
+.nickname-group {
+    /* margin: -.5rem !important; */
+    padding-bottom: .5rem !important;
+}
+
+.accord-head {
+    font-size: larger !important;
+}
+
+.circle-buttons {
+    border-radius: 25px !important;
+}
+
+@media (max-width: 500px) {
+    .remove-at-small {
+        display: none !important;
+    }
+
+    .overflow {
+        text-overflow: ellipsis !important;
+    }
+  }

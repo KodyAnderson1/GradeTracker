@@ -1,0 +1,27 @@
+:root {
+    --primary-white: rgb(255, 255, 255);
+    --primary-black: rgb(0, 0, 0);
+    --green-for-feedback: rgb(41, 75, 41);
+    --yellow-for-feedback: rgb(113, 123, 42);
+    --red-for-feedback: rgb(103, 30, 30);
+    --primary-orange: #ffae00;
+    --primary-card-color: rgb(112, 112, 112);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+#dropdown{
+    margin-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+#dropdownMenu{
+    margin-bottom: auto;
+    height: auto;
+    width: 21rem !important;
+    position: auto;
+    font-size: 1.5rem !important;
+}
+
