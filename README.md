@@ -4,17 +4,17 @@ This project was created as a semester long group project primarily designed and
 
 URL: [Grade Calculator](https://grade-calculator-uwf.web.app/courses)
 
+To view with prefilled data:
+1. Click "Sign in with email"
+2. Email: gradecalculator@example.com
+3. Password: 123456
+
 ## Concept / Project Overview
 Developed to learn React and Javascript(JSX), it requires the user to create an account through Firebases' user authentication via a preexisting google account or an email/password. 
 
 Then, users can add courses and, once clicked on, will see a short description of all added assignment groups and the average grade in that group. Users can also edit the course name in this modal and delete the course with a warning.
 
 Once the user navigates to a specific course's page, the user can create custom assignment groups and the weight of that group for the course. Once the group is made, and assignments are added, those assignments can be sorted by name, the actual grade received, or the maximum grade possible. In each assignment group, the user can change the preferred name of the prepopulated assignment name, change the name and weight of the assignment group, and delete the group with a warning before it is deleted.
-
-To view with prefilled data:
-- Click "Sign in with email"
-- Email: gradecalculator@example.com
-- Password: 123456
 
 ## Languages and Libraries
 - Javascript
