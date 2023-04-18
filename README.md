@@ -1,6 +1,6 @@
 # Grade Calculator (Tracker)
 
-This project was created as a semester long group project primarily designed and coded by myself with assistance from Cam Ball and Brandon Biello
+This project was created as a semester long group project primarily designed and coded by myself with assistance from [Cam Ball](https://github.com/clb158) and Brandon Biello
 
 URL: [Grade Calculator](https://grade-calculator-uwf.web.app/courses)
 
